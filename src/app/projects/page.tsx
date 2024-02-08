@@ -1,10 +1,14 @@
 'use client'
 
 import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
-const Projects = () => {
-    const router = useRouter()
-    router.push('/')
+function ProjectsPage ()  {
+    const router = useRouter();
+
+    useEffect(() => {
+        router.push('/') 
+    })
 }
 
-export default Projects
+export default ProjectsPage;

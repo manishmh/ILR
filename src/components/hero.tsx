@@ -35,6 +35,7 @@ const Hero = () => {
             alt="hero-image-love-to-learn"
             width={700}
             height={600}
+            priority
             className=" max-h-72 object-cover sm:h-[600px] sm:max-h-none xl:h-auto"
           ></Image>
         </div>
