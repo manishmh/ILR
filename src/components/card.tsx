@@ -3,10 +3,10 @@ import SingleCard from "./single-card";
 
 const Card = () => {
   return (
-    <div>
+    <div className="pt-12">
       <div
         id="projects"
-        className="flex flex-col flex-wrap gap-4 px-4 md:px-8 py-16 font-sans max-w-screen-2xl mx-auto"
+        className="flex flex-col flex-wrap gap-4 px-4 md:px-8 py-16 font-sans max-w-screen-xl mx-auto "
       >
         <div>
           <h3 className="text-sm text-blue-700 font-medium">Program name</h3>

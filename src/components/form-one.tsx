@@ -49,7 +49,7 @@ function FormOne() {
                     <Input
                       type="name"
                       disabled={isPending}
-                      placeholder="Name"
+                      placeholder="First Name"
                       {...field}
                       className="border border-gray-700 outline-none focus:outline-none"
                     />
@@ -228,11 +228,12 @@ function FormOne() {
             )}
           />
           <Button
-            disabled={isPending}
+            // disabled={isPending}
+            disabled={true} // when activating the form uncomment above line and comment this one.
             type="submit"
             className="w-full bg-blue-700 hover:bg-blue-600 transition-colors duration-300"
           >
-            Submit
+            Upcoming...
           </Button>
         </div>
       </form>

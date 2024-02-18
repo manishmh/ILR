@@ -72,7 +72,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex text-[#373A3C] flex-col sm:flex-row md:flex-col gap-8 md:gap-8 lg:flex-row text-center sm:text-start md:text-justify md:w-[300px] lg:w-[40%] sm:justify-around lg:items-center ">
-              <div className="text-xs tracking-[2px] flex flex-col gap-[5px] font-medium items-center sm:items-start">
+              <div className="text-xs tracking-[2px] flex flex-col gap-[5px] font-medium items-center sm:items-start uppercase">
                 <h1 className="text-base mb-2 font-bold">CONTACT US</h1>
                 <span className="flex items-center gap-2 group">
                   <FaPhoneAlt className="group-hover:text-[#0070C5]" />
@@ -89,7 +89,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col gap-1.5 text-xs tracking-[2px] font-medium mx-auto">
                 <h1 className="mb-1 text-base font-bold">VISIT US AT</h1>
-                <p className="leading-[20px] max-w-36">
+                <p className="max-w-36 uppercase">
                   Address dfaklj df kafj dfkfjdsjdkslf djklafj dljf a fklf lore jdlf dfklj df 
                 </p>
               </div>
