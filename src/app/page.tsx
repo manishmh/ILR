@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main>
       <div className="mx-auto ">
-        <div className="min-h-screen  flex flex-col ">
+        <div className="min-h-screen flex flex-col 2xl:min-h-[950px]">
           <Navbar />
           <hr />
           <Hero />

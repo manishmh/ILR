@@ -97,7 +97,7 @@ const About = () => {
         </div>
       </div>
       <div className="bg-[#0056D2] py-12 mt-12 text-white font-sans">
-        <div className="max-w-screen-xl mx-auto px-4">
+        <div className="max-w-screen-xl mx-auto px-4 md:px-8">
           <h1 className="text-center text-2xl font-bold md:pb-0 font-sans pb-8 uppercase">
             Knowledge partner
           </h1>
@@ -112,13 +112,13 @@ const About = () => {
                 Automatic Speech Procesing for Low resource Languages.
               </p>
             </div>
-            <div className="border-4 border-white rounded-full 8 flex justify-center items-center flex-shrink-0 h-56 w-56">
+            <div className="border-4 border-white rounded-full 8 flex justify-center items-center flex-shrink-0 h-56 w-56 overflow-hidden p-2">
               <Image
-                src="/about/kiitLogo.png"
+                src="/satya.jpeg"
                 alt="KIIT logo"
                 width={300}
                 height={300}
-                className="w-[100px] h-[75px] mt-8 mb-4 flex-shrink-0"
+                className="w-full h-full mt-8 mb-4 flex-shrink-0 rounded-full -translate-y-2"
               ></Image>
             </div>
           </div>

@@ -45,33 +45,33 @@ const Footer = () => {
                   Indigenous Language Repository
                 </div>
               </div>
-              <p className="mt-4 ml-2.5 text-xs lg:text-sm text-center md:text-start text-[#373A3C]">
+              <p className="mt-4 ml-2.5 text-xs lg:text-sm text-center md:text-start text-[#373A3C] uppercase">
                  Headline of footer
               </p>
               <div className="flex gap-2 mt-8 justify-center md:justify-normal text-[#373A3C] flex-wrap">
-                <Socials
+                {/* <Socials
                   logo={<FaGithub />}
                   src="https://github.com/MLSAKIIT"
-                />
+                /> */}
                 <Socials
                   logo={<FaTwitter />}
-                  src="https://twitter.com/msckiit"
+                  src="https://twitter.com/Babunisatya"
                 />
                 <Socials
                   logo={<FaInstagram />}
-                  src="https://www.instagram.com/mlsakiit/"
+                  src="https://www.researchgate.net/profile/Satya-Dash-3"
                 />
                 <Socials
                   logo={<FaLinkedinIn />}
-                  src="https://www.linkedin.com/company/msckiit/mycompany/"
+                  src="https://www.linkedin.com/in/dr-satya-ranjan-dash-7009a539/"
                 />
-                <Socials
+                {/* <Socials
                   logo={<FaDiscord />}
                   src="https://discord.com/invite/P6VCP2Ry3q"
-                />
+                /> */}
               </div>
             </div>
-            <div className="flex text-[#373A3C] flex-col sm:flex-row md:flex-col gap-8 md:gap-8 lg:flex-row text-center sm:text-start md:text-justify md:w-[300px] lg:w-[40%] sm:justify-around lg:items-center ">
+            <div className="flex text-[#373A3C] flex-col sm:flex-row md:flex-col gap-8 md:gap-8 lg:flex-row text-center sm:text-start md:text-justify md:w-[300px] lg:w-[40%] sm:justify-around lg:mt-12">
               <div className="text-xs tracking-[2px] flex flex-col gap-[5px] font-medium items-center sm:items-start uppercase">
                 <h1 className="text-base mb-2 font-bold">CONTACT US</h1>
                 <span className="flex items-center gap-2 group">
@@ -90,7 +90,7 @@ const Footer = () => {
               <div className="flex flex-col gap-1.5 text-xs tracking-[2px] font-medium mx-auto">
                 <h1 className="mb-1 text-base font-bold">VISIT US AT</h1>
                 <p className="max-w-36 uppercase">
-                  Address dfaklj df kafj dfkfjdsjdkslf djklafj dljf a fklf lore jdlf dfklj df 
+                  Address
                 </p>
               </div>
             </div>

@@ -9,10 +9,6 @@ const Hero = () => {
         <div className="flex flex-col gap-10 md:gap-16 justify-center">
           <div>
             <h1 className="font-bold text-2xl mt-8 md:mt-0 md:text-4xl lg:text-5xl text-[#373A3C] trackingtight uppercase">
-              {/* Celebrating Heritage,
-              <br /> Preserving Voices : KISS & KIIT&apos;s
-              <br /> Indigenous Language Repository,
-              <br /> a Digital Tapestry of Rich Heritage. */}
               INDIGENOUS LANGUAGE REPOSITORY
             </h1>
             <h2 className="text-sm md:text-base mt-4 text-gray-700 font-medium">
