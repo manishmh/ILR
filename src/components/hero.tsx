@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="flex flex-col gap-10 md:gap-16 justify-center">
           <div>
             <h1 className="font-bold text-2xl mt-8 md:mt-0 md:text-4xl lg:text-5xl text-[#373A3C] trackingtight uppercase">
-              INDIGENOUS LANGUAGE REPOSITORY
+              KALINGA INDIGENOUS LANGUAGE REPOSITORY
             </h1>
             <h2 className="text-sm md:text-base mt-4 text-gray-700 font-medium">
               Celebrating Heritage, Preserving Voices: KISS & KIIT&apos;s
@@ -17,7 +17,7 @@ const Hero = () => {
               <br /> a Digital Tapestry of Rich Heritage.
             </h2>
           </div>
-          <div>
+          <div className="flex gap-16 flex-col md:flex-row">
             <Link href="#register">
               <Button
                 className="bg-[#0056D2] font-sans font-extrabold hover:bg-blue-600"
@@ -26,16 +26,25 @@ const Hero = () => {
                 Register
               </Button>
             </Link>
+            <div className="rounded-full overflow-hidden border-4  border-blue-600 w-60 h-60 flex self-center">
+              <Image
+                src={"/Achyuta-Samanta.jpg"}
+                alt="achyuta-samanta-hero-image"
+                width={300}
+                height={300}
+                className="rounded-full object-cover w-full h-full"
+              ></Image>
+            </div>
           </div>
         </div>
-        <div className=" h-full">
+        <div className="h-full">
           <Image
-            src="/love-to-learn.jpg"
+            src="/hero_image.jpeg"
             alt="hero-image-love-to-learn"
-            width={700}
+            width={900}
             height={600}
             priority
-            className=" max-h-72 object-cover sm:h-[600px] sm:max-h-none xl:h-auto"
+            className="max-h-72 object-cover h-[600px] sm:h[600px] sm:max-h-none xl:h-[400px]"
           ></Image>
         </div>
       </div>
