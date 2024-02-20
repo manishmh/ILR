@@ -42,28 +42,24 @@ const Footer = () => {
                   KILR
                 </div>
                 <div className="text-blue-700 uppercase text-xs tracking-wide">
-                  Kaling Indigenous Language Repository
+                  Kalinga Indigenous Language Repository
                 </div>
               </div>
-              <p className="mt-4 ml-2.5 text-xs lg:text-sm text-center md:text-start text-[#373A3C] uppercase">
+              {/* <p className="mt-4 ml-2.5 text-xs lg:text-sm text-center md:text-start text-[#373A3C] uppercase">
                  Headline of footer
-              </p>
+              </p> */}
               <div className="flex gap-2 mt-8 justify-center md:justify-normal text-[#373A3C] flex-wrap">
-                {/* <Socials
-                  logo={<FaGithub />}
-                  src="https://github.com/MLSAKIIT"
-                /> */}
                 <Socials
                   logo={<FaTwitter />}
-                  src="https://twitter.com/Babunisatya"
+                  src="https://twitter.com/"
                 />
                 <Socials
                   logo={<FaInstagram />}
-                  src="https://www.researchgate.net/profile/Satya-Dash-3"
+                  src="https://www.instagram.com/"
                 />
                 <Socials
                   logo={<FaLinkedinIn />}
-                  src="https://www.linkedin.com/in/dr-satya-ranjan-dash-7009a539/"
+                  src="https://www.linkedin.com/"
                 />
                 {/* <Socials
                   logo={<FaDiscord />}
@@ -76,21 +72,21 @@ const Footer = () => {
                 <h1 className="text-base mb-2 font-bold">CONTACT US</h1>
                 <span className="flex items-center gap-2 group">
                   <FaPhoneAlt className="group-hover:text-[#0070C5]" />
-                  <p>Phone number 1</p>
+                  <p>+91 8114399303</p>
                 </span>
-                <span className="flex items-center gap-2 group">
+                {/* <span className="flex items-center gap-2 group">
                   <FaPhoneAlt className="group-hover:text-[#0070C5]" />
                   <p>phone number 2</p>
-                </span>
+                </span> */}
                 <span className="flex items-center gap-2 group">
                   <HiMail className="group-hover:text-[#0070C5]" />
-                  <p>email</p>
+                  <p><a href="mailto:info@kiss.ac.in">info@kiss.ac.in</a></p>
                 </span>
               </div>
-              <div className="flex flex-col gap-1.5 text-xs tracking-[2px] font-medium mx-auto">
+              <div className="flex flex-col gap-1.5 text-xs font-medium mx-auto">
                 <h1 className="mb-1 text-base font-bold">VISIT US AT</h1>
                 <p className="max-w-36 uppercase">
-                  Address
+                Campus 10, K.I.S.S. Bhubaneswar, Odisha, India – 751024
                 </p>
               </div>
             </div>

@@ -46,9 +46,9 @@ function FormWrapper() {
             </div>
           </div>
           <h2 className="font-sans text-xl font-semibold text-[#373A3C] mt-4">
-            Join KIIT and KISS&apos;s Indigenous Language Repository.
+            Join KISS and KIIT&apos;s Indigenous Language Repository.
           </h2>
-          <Button
+          {/* <Button
             size="lg"
             onClick={() => handleInputParent("kiit")}
             className={`transition-all duration-500 max-w-xs ${
@@ -67,7 +67,7 @@ function FormWrapper() {
             }`}
           >
             KISS
-          </Button>
+          </Button> */}
         </div>
         <div className="w-full md:max-w-sm lg:max-w-md xl:max-w-lg border px-2 sm:px-4 py-8 border-gray-800">
           {inputParent.kiit && <FormTwo />}

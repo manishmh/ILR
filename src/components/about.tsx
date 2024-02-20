@@ -101,7 +101,7 @@ const About = () => {
           <h1 className="text-center text-2xl font-bold md:pb-0 font-sans pb-8 uppercase">
             Knowledge partner
           </h1>
-          <div className="flex gap-4 md:gap-12 flex-col-reverse sm:flex-row ">
+          <div className="flex gap-4 md:gap-12 flex-col sm:flex-row ">
             <div className="max-w-screen-lg mx-auto mt-12 flex-1">
               <div>
                 <div className="border-4 border-white rounded-full 8 flex justify-center items-center flex-shrink-0 h-56 w-56 overflow-hidden p-2 flex-1">
@@ -123,7 +123,7 @@ const About = () => {
               <div>
                 <div className="border-4 border-white rounded-full 8 flex justify-center items-center flex-shrink-0 h-56 w-56 overflow-hidden p-2">
                   <Image
-                    src="/satya.jpeg"
+                    src="/about/satyasir.jpg"
                     alt="KIIT logo"
                     width={300}
                     height={300}
@@ -132,11 +132,7 @@ const About = () => {
                 </div>
                 <h1 className="font-semibold text-2xl">Dr. Satya Ranjan Dash</h1>
                 <p className=" break-words whitespace-pre-line text-justify text-lg pt-2">
-                  Dr. Satya Ranjan Dash currently works at the School of Computer
-                  Applications, KIIT Deemed to be University as an Associate
-                  Professor. Satya does research in Machine Translation, Natural
-                  Language and Speech Processing. His current project is on
-                  Automatic Speech Procesing for Low resource Languages.
+                Dr. Satya Ranjan Dash is a computer professional, with his research interest in machine learning, deep learning with NLP, and Biomedical domain. He is currently working as an associate professor in School of Computer Applications, Kalinga Institute of Industrial Technology (KIIT), Deemed to be University, India. His research includes Natural Language Processing, particularly NLP in Healthcare, Epileptic Seizure Detection based on EEG Signal through Spiking neural network (SNN), Classification of Schizophrenia Patients from EEG and fMRI using SNN and SSN,  fetal heart rate signals classification through extreme learning machine (ELM), Fetal State Assessment from Cardiotocogram Data, Mammogram Analysis with Local binary pattern(LBP) and generative adversarial network (GAN) model.  His current project is on Automatic Speech Procesing for Low resource Languages.
                 </p>
               </div>
             </div>
