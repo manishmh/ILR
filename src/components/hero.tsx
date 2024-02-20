@@ -26,15 +26,7 @@ const Hero = () => {
                 Register
               </Button>
             </Link>
-            <div className="rounded-full overflow-hidden border-4  border-blue-600 w-60 h-60 flex self-center">
-              <Image
-                src={"/Achyuta-Samanta.jpg"}
-                alt="achyuta-samanta-hero-image"
-                width={300}
-                height={300}
-                className="rounded-full object-cover w-full h-full"
-              ></Image>
-            </div>
+
           </div>
         </div>
         <div className="h-full">

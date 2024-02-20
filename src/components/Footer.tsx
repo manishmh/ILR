@@ -39,10 +39,10 @@ const Footer = () => {
             <div className="md:w-[50%] xl:w-[60%] flex flex-col items-center md:items-start">
               <div>
                 <div className="text-[#0056D2] font-semibold text-4xl leading-8">
-                  ILR
+                  KILR
                 </div>
                 <div className="text-blue-700 uppercase text-xs tracking-wide">
-                  Indigenous Language Repository
+                  Kaling Indigenous Language Repository
                 </div>
               </div>
               <p className="mt-4 ml-2.5 text-xs lg:text-sm text-center md:text-start text-[#373A3C] uppercase">
@@ -102,7 +102,7 @@ const Footer = () => {
                 <p className="text-center">Owned by</p>
               </span>
               <span className="hidden md:block"> | </span>
-              <p></p>
+              <p>KISS & KIIT</p>
             </div>
           </div>
         </div>

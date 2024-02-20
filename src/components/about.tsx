@@ -101,25 +101,44 @@ const About = () => {
           <h1 className="text-center text-2xl font-bold md:pb-0 font-sans pb-8 uppercase">
             Knowledge partner
           </h1>
-          <div className="flex gap-4 md:gap-12 flex-col-reverse sm:flex-row items-center">
-            <div className="max-w-screen-lg mx-auto mt-12">
-              <h1 className="font-semibold text-2xl">Dr. Satya Ranjan Dash</h1>
-              <p className=" break-words whitespace-pre-line text-justify text-lg pt-2">
-                Dr. Satya Ranjan Dash currently works at the School of Computer
-                Applications, KIIT Deemed to be University as an Associate
-                Professor. Satya does research in Machine Translation, Natural
-                Language and Speech Processing. His current project is on
-                Automatic Speech Procesing for Low resource Languages.
-              </p>
+          <div className="flex gap-4 md:gap-12 flex-col-reverse sm:flex-row ">
+            <div className="max-w-screen-lg mx-auto mt-12 flex-1">
+              <div>
+                <div className="border-4 border-white rounded-full 8 flex justify-center items-center flex-shrink-0 h-56 w-56 overflow-hidden p-2 flex-1">
+                  <Image
+                    src="/about/sushsree.jpg"
+                    alt="KIIT logo"
+                    width={300}
+                    height={300}
+                    className="w-full h-full mt-8 mb-4 flex-shrink-0 rounded-full -translate-y-2"
+                  ></Image>
+                </div>
+                <h1 className="font-semibold text-2xl">Dr. Sushree Sangita Mohanty</h1>
+                <p className=" break-words whitespace-pre-line text-justify text-lg pt-2">
+                Dr. Sushree Sangita Mohanty is a trained anthropologist and ethnographer. Her primary research interests include socio-cultural life, multilingualism, and the livelihood vulnerability of indigenous and low-income communities in Odisha. Currently, she works as an Assistant Professor and serves as the Director of the Center for Indigenous Languages & Narrative at KISS-DU and a facilitator of MTB-MLE at KISS. Dr. Mohanty was awarded the Kalinga Fellowship in December 2022 for her efforts in combating gender-based violence and trafficking of women and children. She has also been selected as an expert in the prestigious UNESCO Inclusive Policy Lab, showcasing her expertise in formulating and implementing inclusive policies to promote cultural diversity and social inclusion. Recently, she received recognition for outstanding contributions to the field of Anthropology and was awarded the title of Emerging Anthropologist at the World Anthropology Congress in August 2023.
+                </p>
+              </div>
             </div>
-            <div className="border-4 border-white rounded-full 8 flex justify-center items-center flex-shrink-0 h-56 w-56 overflow-hidden p-2">
-              <Image
-                src="/satya.jpeg"
-                alt="KIIT logo"
-                width={300}
-                height={300}
-                className="w-full h-full mt-8 mb-4 flex-shrink-0 rounded-full -translate-y-2"
-              ></Image>
+            <div className="max-w-screen-lg mx-auto mt-12 flex-1">
+              <div>
+                <div className="border-4 border-white rounded-full 8 flex justify-center items-center flex-shrink-0 h-56 w-56 overflow-hidden p-2">
+                  <Image
+                    src="/satya.jpeg"
+                    alt="KIIT logo"
+                    width={300}
+                    height={300}
+                    className="w-full h-full mt-8 mb-4 flex-shrink-0 rounded-full -translate-y-2"
+                  ></Image>
+                </div>
+                <h1 className="font-semibold text-2xl">Dr. Satya Ranjan Dash</h1>
+                <p className=" break-words whitespace-pre-line text-justify text-lg pt-2">
+                  Dr. Satya Ranjan Dash currently works at the School of Computer
+                  Applications, KIIT Deemed to be University as an Associate
+                  Professor. Satya does research in Machine Translation, Natural
+                  Language and Speech Processing. His current project is on
+                  Automatic Speech Procesing for Low resource Languages.
+                </p>
+              </div>
             </div>
           </div>
         </div>

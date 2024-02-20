@@ -39,12 +39,7 @@ const ProjectsPage = ({ params }: { params: any }) => {
           <h1 className="text-xl font-semibold">{project.title}</h1>
           <p className="mt-4 text-sm">{project.desc}</p>
           <div className="mt-4 flex gap-4">
-            <Link href="/">
-              <Button>button 1</Button>
-            </Link>
-            <Link href="/">
-              <Button>button 2</Button>
-            </Link>
+              {project.resources.map((p,i)=><Link key={i} href={p.link} className="font-semibold" download><Button>{p.title}</Button></Link>)}
           </div>
         </div>
       </div>
