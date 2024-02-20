@@ -24,7 +24,7 @@ export const PROJECTS = [
       link: "/projects/project2",
       resources : [
       {
-        title: "English Sentence",
+        title: "English-Ho Parallel Corpus",
         link: "/cardData/English-Ho_Sentence.pdf"
       },
       {
@@ -40,16 +40,24 @@ export const PROJECTS = [
       desc: "This is a dedicated platform designed to share knowledge with educators, policymakers, and researchers in the field of language-based education. Our repository compiles a comprehensive collection of resources, including curriculum guides, teaching aids, research papers, success stories, and professional development materials. By fostering knowledge sharing, this repository aims to enhance the effectiveness of MTB-MLE programs globally. Whether you are seeking innovative teaching strategies, policy insights, or tools for monitoring and evaluation, our repository is your go-to source. Join us in promoting inclusive and impactful mother tongue-based education by exploring the wealth of resources curated to support your journey in advancing language diversity and educational excellence.",
       link: "/projects/project4",
       resources: [{
-        title: "Resource 1",
-        link: "/"
+        title: "Shoura Short Video",
+        link: "https://drive.google.com/file/d/1d4yRgiUsIqFAmqPYX0OBvL9ea2pguf1w/view?ts=65d45edd"
       },
       {
-        title: "Resource 1",
-        link: "/"
+        title: "Ama Paribesa",
+        link: "https://drive.google.com/file/d/1MtPhXken46S9aP7AI1oI2UZ9JOB-Gbcl/view?ts=65d46206"
       },
       {
-        title: "Resource 1",
-        link: "/"
+        title: "Resource Materials",
+        link: "https://drive.google.com/file/d/1DV9a78-EetcD2Pti-fq6Tcybtvpgw9At/view?ts=65d45ec8"
+      },
+      {
+        title: "Kusuma 3rd",
+        link: "https://drive.google.com/file/d/11Mgi6Fi5xv73W8_pB4fVn3CJzqIrakPr/view?ts=65d45eac"
+      },
+      {
+        title: "Kusuma 1st",
+        link: "https://drive.google.com/file/d/1ueitBB_G2ON9yFtq2qYA9ycdc5gC8l0f/view?ts=65d45e94"
       }
     ]
     },
