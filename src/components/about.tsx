@@ -5,7 +5,7 @@ const About = () => {
     <>
       <div className="w-full relative">
         <h1 className="text-center text-2xl font-bold pt-12 pb-4 font-sans">
-          Why this repository ?
+          About this repository
         </h1>
         <div className="flex flex-col md:flex-row w-[95%] lg:w-[80%] mx-auto  gap-12 md:gap-12 max-w-[1920px] lg:gap-16 3xl:text-[1.1vw] 3xl:leading-[2vw] 4xl:text-xl pt-6">
           <div className="w-full">
@@ -49,12 +49,12 @@ const About = () => {
         <div className="flex flex-col md:flex-row w-[95%] lg:w-[80%] mx-auto  gap-12 md:gap-12 max-w-[1920px] lg:gap-16 3xl:text-[1.1vw] 3xl:leading-[2vw] 4xl:text-xl">
           <div className="w-full">
             <div className="flex justify-center pb-8">
-              <Image
-                src="/about/kiitLogo.png"
+            <Image
+                src="/about/kissLogo.png"
                 alt="KIIT logo"
                 width={300}
                 height={300}
-                className="w-[100px] h-[75px] mt-8 mb-4 flex-shrink-0"
+                className="w-[100px] h-[85px] mt-6 mb-3.5"
               ></Image>
             </div>
             <p className=" break-words whitespace-pre-line text-justify text-lg">
@@ -74,12 +74,13 @@ const About = () => {
           </div>
           <div className="w-full">
             <div className="flex justify-center pb-8">
-              <Image
-                src="/about/kissLogo.png"
+              
+                <Image
+                src="/about/kiitLogo.png"
                 alt="KIIT logo"
                 width={300}
                 height={300}
-                className="w-[93px] h-[85px] mt-6 mb-3.5"
+                className="w-[100px] h-[75px] mt-8 mb-4 flex-shrink-0"
               ></Image>
             </div>
             <p className=" break-words whitespace-pre-line text-justify text-lg">
@@ -96,7 +97,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#0056D2] py-12 mt-12 text-white font-sans">
+      <div className="bg-blue-950 py-12 mt-12 text-white font-sans">
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">
           <h1 className="text-center text-2xl font-bold md:pb-0 font-sans pb-8 uppercase">
             Knowledge partner

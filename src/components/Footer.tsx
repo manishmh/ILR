@@ -81,6 +81,7 @@ const Footer = () => {
                 <span className="flex items-center gap-2 group">
                   <HiMail className="group-hover:text-[#0070C5]" />
                   <p><a href="mailto:info@kiss.ac.in">info@kiss.ac.in</a></p>
+                  <p><a href="mailto:kiit@kiit.ac.in">kiit@kiit.ac.in</a></p>
                 </span>
               </div>
               <div className="flex flex-col gap-1.5 text-xs font-medium mx-auto">
